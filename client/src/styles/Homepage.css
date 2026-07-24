@@ -1,0 +1,109 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  color: var(--color-ink);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+.home-page .card {
+  background-color: var(--color-surface-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  width: 18rem;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition), transform var(--transition);
+  overflow: hidden;
+}
+.home-page .card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-page .card-price {
+  color: var(--color-success);
+  font-weight: 600;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 8px 0;
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.home-page .card-text {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.home-page .card img:hover {
+  transform: scale(0.96);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+  object-fit: cover;
+  transition: transform var(--transition);
+}
+/* ==================
+filters
+============== */
+.filters h4 {
+  margin-top: var(--space-xl);
+  color: var(--color-ink) !important;
+  font-weight: 600;
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: var(--color-ink);
+  width: 100%;
+  border: none;
+  border-radius: var(--radius-sm);
+  margin-top: var(--space-md);
+  padding: 8px 0;
+  font-weight: 500;
+  transition: background-color var(--transition);
+}
+.filters button:hover {
+  background-color: var(--color-ink-soft);
+}
+
+.loadmore {
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 18px !important;
+  border-radius: var(--radius-sm);
+}

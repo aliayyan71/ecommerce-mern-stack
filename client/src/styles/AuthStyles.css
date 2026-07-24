@@ -1,0 +1,75 @@
+/* ===================================
+========= register page  */
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: var(--color-surface-subtle);
+  background-image: linear-gradient(0deg, #f4efe7 0%, #e8f3ef 100%);
+}
+
+.form-container form {
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  background-color: var(--color-surface);
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: var(--space-md);
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--color-ink);
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  border-radius: 0;
+  padding: 8px 4px;
+  transition: border-color var(--transition);
+}
+.form-container form input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--color-accent);
+}
+
+.form-container form button {
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-ink);
+  color: white;
+  width: 250px;
+  padding: 10px 0;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: background-color var(--transition);
+}
+
+.form-container form button:hover {
+  border: 1px solid var(--color-ink);
+  background: var(--color-ink); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--color-ink-soft),
+    var(--color-ink)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--color-ink-soft),
+    var(--color-ink)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.forgot-btn {
+  background-color: var(--color-accent) !important;
+  border: 0 !important;
+}
+
+.forgot-btn:hover {
+  color: white !important;
+}
