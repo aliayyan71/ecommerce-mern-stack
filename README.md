@@ -2,8 +2,6 @@
 
 A full-stack ecommerce web application built with MongoDB, Express, React, and Node.js (MERN). It includes customer-facing shopping features (browsing, search, filtering, cart, checkout) and an admin dashboard for managing products, categories, and orders.
 
-> **Note on origin:** This project was built while following a MERN stack tutorial series ([techinfo-youtube](https://github.com/techinfo-youtube/ecommerce-app-2023)) to learn full-stack development end to end. On top of the tutorial base, the CSS/UI layer was reworked — a consistent design-token system (colors, spacing, typography), refreshed color palette, hover states, and card styling across the product, cart, auth, and admin pages. I'm sharing this to demonstrate what I learned building it and the improvements I made, not as fully original architecture.
-
 ## Features
 
 **Customer**
